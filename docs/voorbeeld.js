@@ -1,4 +1,3 @@
-const carrousel = document.querySelector('div');
 const buttons = document.querySelectorAll('button');
 const snappedSound = new Audio('https://assets.codepen.io/2585/snap.mp3');
 
