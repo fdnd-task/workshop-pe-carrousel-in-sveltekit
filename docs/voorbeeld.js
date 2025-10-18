@@ -1,3 +1,6 @@
+// only run script if the CSS ::scroll-button() selector isn't supported by the browser
+if ((CSS.supports("selector(::scroll-button())"))) return
+
 const buttons = document.querySelectorAll('button');
 const snappedSound = new Audio('https://assets.codepen.io/2585/snap.mp3');
 
