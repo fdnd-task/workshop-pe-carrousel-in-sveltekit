@@ -63,8 +63,9 @@ Kopieer onderstaande code naar `> src > routes > +page.svelte`
     <h1>Frontend Design & Development</h1>
     <p><em>2-jarige Associate Degree aan de HvA</em></p>
   </header>
-  
-  <div>
+
+  //bind the div container to the carrousel variable in the script section
+  <div bind:this={carrousel}>
     {#each data.features as feature}
       <article>
         <h2>{feature.title}</h2>
