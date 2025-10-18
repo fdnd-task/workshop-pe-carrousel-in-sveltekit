@@ -1,4 +1,4 @@
-/* The Carrousel is based on the Progressive Enhancement principle, build in seperate layers, each layer is an extra enhancement. */
+/* The Carrousel is based on the Progressive Enhancement principle, build in seperate layers. Each layer adds a new enhancement. */
 @layer generic, overflow, snap, scroll-buttons, scroll-animation;
 
 /* 1. Generic styling */
